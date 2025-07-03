@@ -40,7 +40,16 @@
 # Ctrl Shift i = toggle [i]nspector 
 #
 # (GJ) Config
+
+# themes and fonts
 theme = tokyonight
 font-family = "FiraMono Nerd Font Mono"
+
+# removes thick GNOME title bar
 window-decoration = false
 
+# makes tmux extend all the way to the bottom of the screen
+window-padding-balance = true
+window-padding-x = 0
+window-padding-y = 0
+window-padding-color = extend
