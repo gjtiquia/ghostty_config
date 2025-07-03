@@ -1,20 +1,11 @@
 # This is the configuration file for Ghostty.
 #
-# This template file has been automatically created at the following
-# path since Ghostty couldn't find any existing config files on your system:
-#
-#   /home/gjtiquia/.config/ghostty/config
-#
-# The template does not set any default options, since Ghostty ships
-# with sensible defaults for all options. Users should only need to set
-# options that they want to change from the default.
-#
 # Run `ghostty +show-config --default --docs` to view a list of
 # all available config options and their default values.
 #
 # Additionally, each config option is also explained in detail
 # on Ghostty's website, at https://ghostty.org/docs/config.
-
+#
 # Config syntax crash course
 # ==========================
 # # The config file consists of simple key-value pairs,
@@ -42,5 +33,14 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-# (GJ)
+# (GJ) 
+#
+# (GJ) Hot Keys
+# Ctrl Shift , = reload config
+# Ctrl Shift i = toggle [i]nspector 
+#
+# (GJ) Config
+theme = tokyonight
+font-family = "FiraMono Nerd Font Mono"
 window-decoration = false
+
