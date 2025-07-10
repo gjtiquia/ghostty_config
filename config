@@ -44,9 +44,10 @@
 # themes and fonts
 # theme = tokyonight
 # theme = catppuccin-frappe
-theme = rose-pine
+# theme = rose-pine
 # theme = rose-pine-moon
 # theme = rose-pine-dawn
+theme = "light:rose-pine-dawn, dark:rose-pine-moon"
 font-family = "FiraMono Nerd Font Mono"
 
 # removes thick GNOME title bar
