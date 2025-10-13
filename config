@@ -38,23 +38,39 @@
 # (GJ) Hot Keys
 # Ctrl Shift , = reload config
 # Ctrl Shift i = toggle [i]nspector 
+# Ctrl Enter = fullscreen (different from maximized window)
 #
 # (GJ) Config
 
 # themes and fonts
+
+# these theme names are no longer working
 # theme = tokyonight
 # theme = catppuccin-frappe
 # theme = rose-pine
 # theme = rose-pine-moon
 # theme = rose-pine-dawn
-theme = "light:rose-pine-dawn, dark:rose-pine-moon"
+# theme = "light:rose-pine-dawn, dark:rose-pine-moon"
+
+# theme = Rose Pine Dawn
+# theme = Rose Pine Moon
+theme = "light:Rose Pine Dawn, dark:Rose Pine Moon"
+
 font-family = "FiraMono Nerd Font Mono"
 
 # removes thick GNOME title bar
-window-decoration = false
+# but also removes ability to drag terminal around and resize
+# but fullscreen will auto hide title bar anyways (maximized window is different from fullscreen btw)
+# https://github.com/ghostty-org/ghostty/issues/3381
+# https://github.com/ghostty-org/ghostty/pull/5008
+# window-decoration = false
+
+# an attempt to style the windows nicely
+window-theme = ghostty
 
 # makes tmux extend all the way to the bottom of the screen
 window-padding-balance = true
 window-padding-x = 0
 window-padding-y = 0
 window-padding-color = extend
+
