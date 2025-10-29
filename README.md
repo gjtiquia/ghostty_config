@@ -6,8 +6,6 @@
  
 ## setup
 
-`~/.config/ghostty/` should exist if you have opened ghostty before
-
 ```
 # go into the existing config folder, should exist if you have opened ghostty before
 cd ~/.config/ghostty`
