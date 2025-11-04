@@ -74,3 +74,9 @@ window-padding-x = 0
 window-padding-y = 0
 window-padding-color = extend
 
+# custom shaders
+# (see https://github.com/sahaj-b/ghostty-cursor-shaders)
+# (i rm -rf .git cuz dun wanna bother with git submodules and all that)
+# not sure how to put the shaders in their own folders, or how to use multiple shaders at once, figure that out later lol
+# it even works going down the command line in nvim, or between tmux sessions!
+custom-shader = shaders/cursor_warp.glsl
